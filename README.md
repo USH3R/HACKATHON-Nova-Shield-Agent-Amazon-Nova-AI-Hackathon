@@ -1,4 +1,4 @@
-# 🏆 Hackathon Project: NovaShield-Agent
+# 🏆 Hackathon Project: Nova Shield Agent
 > **Submission for:** [Amazon Nova AI Hackathon 2026](https://aws.amazon.com/ai/nova-hackathon)  
 > **Status:** Final Submission / Federal Infrastructure Guard
 
@@ -36,3 +36,10 @@ To ensure Zero-Trust verification, NovaShield utilizes Bayesian probability for 
 * **`nova_agent.py`**: The AI Orchestrator (Python/Boto3).
 * **`aws_cloud_audit.java`**: The Enterprise Logger (Java/NIST AU-2).
 * **`low_level_guardian.cpp`**: The System Execution Module (C++/Security).
+
+---
+
+## 🚀 How to Run the NovaShield Demo
+
+1. **Open a terminal** in your environment (e.g., Codespace or local terminal).  
+2. **Run the demo script** by typing using Bash (```bash) programming language: bash demo.sh
