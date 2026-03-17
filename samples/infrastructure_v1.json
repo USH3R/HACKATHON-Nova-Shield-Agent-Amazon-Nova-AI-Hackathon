@@ -1,0 +1,11 @@
+{
+  "account_id": "123456789012",
+  "resources": [
+    {
+      "id": "production-data-storage",
+      "type": "S3",
+      "encryption": "none",
+      "public": "enabled"
+    }
+  ]
+}
