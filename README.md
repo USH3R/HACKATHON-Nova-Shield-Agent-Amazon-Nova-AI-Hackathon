@@ -1,4 +1,4 @@
-# 🏆 Nova Shielf Agent: Agentic Federal Compliance for AWS GovCloud
+# 🏆 Nova Shield Agent: Agentic Federal Compliance for AWS GovCloud
 
 ![Compliance](https://img.shields.io/badge/Compliance-NIST_800--53-blue?style=for-the-badge)
 ![FedRAMP](https://img.shields.io/badge/FedRAMP-Authorized-green?style=for-the-badge)
