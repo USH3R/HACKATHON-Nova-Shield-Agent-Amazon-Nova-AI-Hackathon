@@ -9,13 +9,17 @@ def audit_aws_config():
     # Ensure reports directory exists
     os.makedirs(report_dir, exist_ok=True)
 
-    # Load sample configuration
+    # Load sample configuration or fallback
     if not os.path.exists(sample_file):
-        print(f"[ERROR] Sample file {sample_file} not found.")
-        return
-
-    with open(sample_file, "r") as f:
-        data = json.load(f)
+        print(f"[WARN] Sample file {sample_file} not found. Using mock config.")
+        data = {
+            "resources": [
+                {"id": "S3_Bucket_01", "encryption": "none", "public": "enabled"}
+            ]
+        }
+    else:
+        with open(sample_file, "r") as f:
+            data = json.load(f)
 
     print("[*] Auditing AWS Config against NIST 800-171...")
     violations = []
@@ -27,13 +31,17 @@ def audit_aws_config():
             violations.append(f"NON_COMPLIANT: {resource['id']} has Public Access Enabled")
 
     status = "FAILED" if violations else "PASSED"
-    result = {"status": status, "issues": violations, "remediation": "Apply KMS Key & Restrict Public Access"}
+    result = {
+        "status": status,
+        "issues": violations,
+        "remediation": "Apply KMS Key & Restrict Public Access"
+    }
 
     # Write report
     with open(report_file, "w") as f:
         json.dump(result, f, indent=4)
 
-    print(f"[!] Audit Complete. {len(violations)} violations found.")
+    print(f"[!] Audit Complete. {len(violations)} violation(s) found.")
     for v in violations:
         print(f"    - {v}")
 
