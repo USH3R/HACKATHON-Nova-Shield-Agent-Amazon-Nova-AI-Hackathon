@@ -42,4 +42,5 @@ To ensure Zero-Trust verification, NovaShield utilizes Bayesian probability for 
 ## 🚀 How to Run the NovaShield Demo
 
 1. **Open a terminal** in your environment (e.g., Codespace or local terminal).  
-2. **Run the demo script** by typing using Bash (```bash) programming language: bash demo.sh
+2. **Run the demo script** by typing using Bash (```bash) programming language: 
+        bash demo.sh
