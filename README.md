@@ -1,3 +1,9 @@
+# 🏆 Hackathon Project: NovaShield-Agent
+> **Submission for:** [Amazon Nova AI Hackathon 2026](https://aws.amazon.com/ai/nova-hackathon)  
+> **Status:** Final Submission / Federal Infrastructure Guard
+
+---
+
 # 🏆 Nova Shield Agent: Agentic Federal Compliance for AWS GovCloud
 
 ![Compliance](https://img.shields.io/badge/Compliance-NIST_800--53-blue?style=for-the-badge)
