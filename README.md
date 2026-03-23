@@ -47,17 +47,15 @@ This application provides a simulated AWS audit.
     Click Code → Codespaces → Create Codespace on main.  
     Wait for the environment to load.  
     Open the terminal inside Codespaces.  
-    Run:         bash demo.sh  
-    When the server starts, open the browser, or open the Port tab and then open forwarded port (usually 8050), to view the dashboard.  
-      
+    Run:         bash demo.sh    
+  
     2. Run Manually Inside the Repository (Local Machine)  
     If you downloaded or cloned the repository:  
     Open a terminal.  
     Navigate to the project folder.  
-    Example:                                          cd HACKATHON-Nova-Shield-Agent-Amazon-Nova-AI-Hackathon  
-    Run the launcher:                            bash demo.sh  
-    Open your browser and go to:        http://localhost:8050  
-  
+    Example:                            cd HACKATHON-Nova-Shield-Agent-Amazon-Nova-AI-Hackathon  
+    Run the launcher:                   bash demo.sh  
+    
     3. If You Are Using a Random Public Terminal  
     Public terminals do not automatically have this project. You must first download or clone the repository.  
     A. Option A — Clone with Git  
