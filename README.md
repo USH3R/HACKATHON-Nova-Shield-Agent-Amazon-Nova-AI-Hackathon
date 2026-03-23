@@ -40,7 +40,7 @@ To ensure Zero-Trust verification, NovaShield utilizes Bayesian probability for 
 ---
   
 ## 🚀 How to Run the NovaShield Demo
-This application provides a simulated AWS audit.
+This application provides a simulated AWS audit.  
   
     1. Run in GitHub Codespaces (Recommended)  
     Open this repository on GitHub.  
